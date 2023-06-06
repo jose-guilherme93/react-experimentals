@@ -4,8 +4,30 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/challenges/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    extend: {
+      colors: {
+        gray: {
+            _100: '#38343D',
+            _200: '#686071',
+            _300: '#797085',
+            _400: '#F4EFFA',
+            _500: '#FDFCFE',
+            
+        },
+        gradient: {
+            _100: '#935FD3',
+            _200: '#9245F1',
+        },
+        custom_red: '#AA2222',
+        
+    },
+    fontFamily: {
+      heebo: ["heebo", "sans-serif"]
+      }
+    },
   },
   plugins: [
     require("daisyui"),
@@ -20,4 +42,5 @@ module.exports = {
     prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
     logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
   },
+  
 }
