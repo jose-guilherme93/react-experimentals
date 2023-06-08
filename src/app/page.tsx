@@ -1,9 +1,13 @@
-import Challenges from '@/challenges'
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Challenges />
-    </main>
+    <>
+      <main className="flex h-screen border flex-col items-center">
+        <h1 className="mb-2">Projects</h1>
+        <Link className="text-cyan-500 border border-solid border-1 p-2 rounded-md shadow-lg" href={'/challenges/profile-settings'}>profile-settings</Link>
+
+      </main>
+    </>
   )
 }
