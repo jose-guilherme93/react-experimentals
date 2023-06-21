@@ -1,19 +1,16 @@
 "use client"
-import LinkToComponent from "@/components/linkToComponent";
-import Link from "next/link";
+import CardToComponent from "@/components/Card/";
 
 export default function Home() {
+  
   return (
     <>
-      <main className="flex h-screen border flex-col gap-2 items-center">
-        <h1 className="mb-2">Projects</h1>
-        <LinkToComponent href={'challenges/profile-settings'}>profile-settings</LinkToComponent>
+      <main className="h-screen w-screen">
+        <h1 className="w-full pl-4 md:text-center bg-base-200 font-bold text-3xl rounded-lg">Projects</h1>
+        <div className="w-full justify-center md:justify-start flex flex-wrap ">
+          <CardToComponent />
 
-
-        <LinkToComponent href={'challenges/transport-widget'}>transport-widget </LinkToComponent>
-
-
-        <LinkToComponent href={'challenges/shopping-cart'}>shopping-cart</LinkToComponent>
+        </div>
       </main>
     </>
   )

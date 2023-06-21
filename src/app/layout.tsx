@@ -1,5 +1,5 @@
 import './globals.css'
-import './challenges/transport-widget/style.css'
+
 import { Inter } from 'next/font/google'
 
 
