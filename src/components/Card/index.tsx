@@ -27,6 +27,11 @@ const challenges = [
         buttonName: 'shopping-cart',
         href: `${pathTree}/shopping-cart`
     },
+    {   title: 'input-search',
+        description: 'An input for search person name, city and age, with a filter radio. ',
+        buttonName: 'input-search',
+        href: `${pathTree}/input-search`
+    },
   ]
 
 export default function CardToComponent() {
