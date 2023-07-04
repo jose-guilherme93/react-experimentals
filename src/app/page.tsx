@@ -5,8 +5,8 @@ export default function Home() {
   
   return (
     <>
-      <main className="h-screen w-screen">
-        <div className="w-full justify-center md:justify-start flex flex-wrap ">
+      <main className="h-screen w-full">
+        <div className="w-full justify-center md:justify-start flex flex-wrap">
           <CardToComponent />
         </div>
       </main>
