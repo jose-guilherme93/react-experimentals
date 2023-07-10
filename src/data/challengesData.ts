@@ -1,17 +1,18 @@
+
 const pathTree = "challenges"
 
 export const challenges = [
    
     {   
-        title: 'profile-settings',
+        title: `profile-settings`,
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo provident eveniet tenetur?',
         buttonName: 'profile-settings',
         href: `${pathTree}/profile-settings`
    },
    {    title: 'transport-widget',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo provident eveniet tenetur?',
-        buttonName: 'transport-widget',
-        href: `${pathTree}/transport-widget`
+        buttonName: 'transport widget',
+        href: `${pathTree}/transport-widget`,
     },
     {   title: 'shopping-cart',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo provident eveniet tenetur?',
@@ -29,8 +30,14 @@ export const challenges = [
         href: `${pathTree}/input-search`
     },
     {   title: 'todo-list',
-        description: 'An Todo App for taks management ',
+        description: 'An Todo App for tasks management ',
         buttonName: 'todo-list',
         href: `${pathTree}/todo-list`
     },
+    {   title: 'school-bus',
+        description: 'a yellow school bus with animated wheels ',
+        buttonName: 'school-bus',
+        
+        href: `${pathTree}/school-bus`
+},
   ]
