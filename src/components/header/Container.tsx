@@ -9,7 +9,7 @@ interface ContainerProps {
 
 export default function Container({children}: ContainerProps) {
     return (
-        <div className="flex h-full w-full items-center justify-between mx-4">
+        <div className="navbar">
             {children}
         </div>
     )

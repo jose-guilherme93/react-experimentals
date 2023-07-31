@@ -7,6 +7,7 @@ export default function Header() {
             <Nav.Container>
                 <Nav.Logo /> 
                 <Nav.About />
+                <Nav.GithubLogo />
             </Nav.Container>
         </Nav.Root>
     )
